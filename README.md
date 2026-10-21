@@ -1,10 +1,10 @@
-# Atlas — Controle de Projetos
+# Atlas - Controle de Projetos
 
 Aplicação Spring Boot com API REST, persistência H2 em memória e interface web servida pelo próprio backend.
 
 ## Executar
 
-No Windows, na pasta `ac2`, execute `mvnw.cmd spring-boot:run`. A tela fica em `http://localhost:8081` e o console H2 em `http://localhost:8081/h2-console`.
+Execute o Spring. A tela fica em `http://localhost:8081` e o console H2 em `http://localhost:8081/h2-console`.
 
 Configuração de conexão do H2: JDBC URL `jdbc:h2:mem:controleprojetos`, usuário `sa`, senha vazia. Os dados são apagados quando a aplicação é encerrada.
 
